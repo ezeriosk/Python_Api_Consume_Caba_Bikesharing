@@ -35,6 +35,8 @@ load_dotenv()
 
 ############## Station Status ####################
 
+load_dotenv()
+
 def get_data_and_post ():
 # API endpoint
     url = os.getenv('stations_status_url')
