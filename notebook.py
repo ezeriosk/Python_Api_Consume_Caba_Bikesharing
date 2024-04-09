@@ -162,12 +162,12 @@ def get_data_and_post ():
                                  )
     
 # Schedule the task to run every 2 hours
-schedule.every(2).minutes.do(get_data_and_post)
+schedule.every(2).hours.do(get_data_and_post)
 
 # Run the scheduler
 while True:
     schedule.run_pending()
-    time.sleep(5)
+    time.sleep(3600)
     
 
 
