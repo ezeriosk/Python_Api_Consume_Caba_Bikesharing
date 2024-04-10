@@ -1,8 +1,6 @@
 <div align="center">
 
-# 🚲 Buenos Aires Bikesharing Analysis 📊
-
-![Twitter](https://img.shields.io/twitter/follow/cabaBikesharing?style=social&logo=twitter)
+# 🚲 City of Buenos Aires Bikesharing Analysis 📊
 
 </div>
 
